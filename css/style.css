@@ -40,8 +40,7 @@ a {
   a:active {
     color: #FFF; }
   a:hover {
-    background-color: #000;
-    text-decoration: underline; }
+    background-color: #000; }
 
 /* Typography - From Skeleton.css
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
