@@ -660,6 +660,14 @@
 		"oAP": "/index.php",
 		"oF": 0
 		},
+	"/page-holdingpage.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/page-holdingpage.php",
+		"oF": 0
+		},
 	"/page-template.php": {
 		"cB": 0,
 		"ft": 8192,
