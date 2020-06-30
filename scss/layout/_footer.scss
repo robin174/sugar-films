@@ -1,0 +1,10 @@
+footer, .footer {
+	padding-top: $padding--general;
+	padding-bottom: $padding--general;
+	background-color: $color--black;
+	& p {
+		font-size: 0.8rem;
+		color: rgba(255,255,255,0.5);
+		margin-bottom: 0;
+	}
+}

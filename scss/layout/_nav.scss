@@ -1,0 +1,34 @@
+.off-canvas {
+}
+
+.top-bar {
+}
+
+.top-bar, .top-bar ul {
+	background-color: $color--black;
+	& .menu a {
+		font-size: 0.8rem;
+		color: $color--white;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 0.2rem;
+		&:hover {
+			color: $color--black;
+			background-color: $color--white;
+		}
+	}
+	& .menu .active > a, .menu .is-active > a {
+		color: $color--black;
+		background-color: $color--white;
+	}
+}
+
+
+.top-bar-left, .top-bar-left ul {
+	& .menu a {
+		&:hover {
+			color: $color--black;
+			background-color: $color--white;
+		}
+	}
+}

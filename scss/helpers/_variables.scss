@@ -1,0 +1,29 @@
+/* Colors
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+$color--black: #000; // Black
+$color--white: #FFF; // White
+$color--grey: #999; // Grey, rgba(153,153,153,1);
+$color--black-tone: lighten($color--black,10%);
+
+
+/* Initial sizing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*  NOTE. html is set to 62.5% so that all the REM measurements throughout Skeleton are based on 10px sizing. So basically 1.5rem = 15px */
+/*  NOTE. If normal, 100% equals 16px sizing. */
+html {
+    font-size: 100%; 
+}
+
+body {
+	font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+}
+
+$base--value: 1.5rem; // To test: rems/ems/px;
+
+$margin--small: $base--value;
+$margin--general: $base--value*2;
+$padding--small: $base--value;
+$padding--general: $base--value*2;
+
+/* Need to source fonts What would suissnord look liek a web title? (would have to be short...etc) */
+/* Sort weights on the fonts */

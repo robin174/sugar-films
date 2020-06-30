@@ -1,0 +1,10 @@
+main {
+	padding-top: $padding--small;
+	padding-bottom: $padding--small;
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	padding-top: $padding--general;
+	padding-bottom: $padding--general;
+}

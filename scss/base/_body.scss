@@ -1,0 +1,45 @@
+@import "bourbon";
+
+/* Initial sizing - set in 'helpers' - '_variables.scss' */
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+
+/* Base styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+	background-color: $color--black-tone;
+	color: $color--grey;
+}
+
+a {
+	transition: 0.3s;
+	color: $color--white;
+	&:link { // unvisited link
+		color: $color--white;
+	}
+	&:visited { // visited link
+		color: $color--white;
+	}
+	&:active { // selected link
+		color: $color--white;
+	}
+	&:hover { // mouse over link
+		color: $color--black;
+	}
+}

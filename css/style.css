@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* Colors
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Initial sizing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*  NOTE. html is set to 62.5% so that all the REM measurements throughout Skeleton are based on 10px sizing. So basically 1.5rem = 15px */
+/*  NOTE. If normal, 100% equals 16px sizing. */
+html {
+  font-size: 100%; }
+
+body {
+  font-size: 1.5em;
+  /* currently ems cause chrome bug misinterpreting rems on body element */ }
+
+/* Need to source fonts What would suissnord look liek a web title? (would have to be short...etc) */
+/* Sort weights on the fonts */
+/* stylelint-disable order/properties-alphabetical-order */
+/* stylelint-enable */
+/* Initial sizing - set in 'helpers' - '_variables.scss' */
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Larger than mobile */
+/* Larger than phablet */
+/* Larger than tablet */
+/* Larger than desktop */
+/* Larger than Desktop HD */
+/* Base styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+  background-color: #1a1a1a;
+  color: #999; }
+
+a {
+  transition: 0.3s;
+  color: #FFF; }
+  a:link {
+    color: #FFF; }
+  a:visited {
+    color: #FFF; }
+  a:active {
+    color: #FFF; }
+  a:hover {
+    color: #000; }
+
+/* Typography - From Skeleton.css
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h5, h6 {
+  color: #FFF;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 300; }
+
+h1 {
+  font-size: 3.0rem;
+  line-height: 1.2;
+  letter-spacing: -.1rem; }
+
+h2 {
+  font-size: 2.7rem;
+  line-height: 1.25;
+  letter-spacing: -.1rem; }
+
+h3 {
+  font-size: 2.4rem;
+  line-height: 1.3;
+  letter-spacing: -.1rem; }
+
+h4 {
+  font-size: 1.8rem;
+  line-height: 1.35;
+  letter-spacing: -.08rem; }
+
+h5 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  letter-spacing: -.05rem; }
+
+h6 {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  letter-spacing: 0; }
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  h1 {
+    font-size: 3.6rem; }
+  h2 {
+    font-size: 3.0rem; }
+  h3 {
+    font-size: 2.7rem; }
+  h4 {
+    font-size: 2.4rem; }
+  h5 {
+    font-size: 1.8rem; }
+  h6 {
+    font-size: 1.5rem; } }
+
+/* Base styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.top-bar, .top-bar ul {
+  background-color: #000; }
+  .top-bar .menu a, .top-bar ul .menu a {
+    font-size: 0.8rem;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem; }
+    .top-bar .menu a:hover, .top-bar ul .menu a:hover {
+      color: #000;
+      background-color: #FFF; }
+  .top-bar .menu .active > a, .top-bar .menu .is-active > a, .top-bar ul .menu .active > a, .top-bar ul .menu .is-active > a {
+    color: #000;
+    background-color: #FFF; }
+
+.top-bar-left .menu a:hover, .top-bar-left ul .menu a:hover {
+  color: #000;
+  background-color: #FFF; }
+
+main {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem; }
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+
+footer, .footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #000; }
+  footer p, .footer p {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 0; }
