@@ -40,6 +40,7 @@ a {
 		color: $color--white;
 	}
 	&:hover { // mouse over link
-		color: $color--black;
+		background-color: $color--black;
+		text-decoration: underline;
 	}
 }
