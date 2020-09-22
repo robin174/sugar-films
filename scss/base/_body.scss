@@ -27,6 +27,10 @@ body {
 	color: $color--grey;
 }
 
+main {
+	background-color: $color--black;
+}
+
 a {
 	transition: 0.3s;
 	color: $color--white;
@@ -41,5 +45,6 @@ a {
 	}
 	&:hover { // mouse over link
 		background-color: $color--black;
+		text-decoration: underline;
 	}
 }

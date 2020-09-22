@@ -5,7 +5,7 @@
 }
 
 .top-bar, .top-bar ul {
-	background-color: $color--black;
+	background-color: $color--black-tone;
 	& .menu a {
 		font-size: 0.8rem;
 		color: $color--white;
@@ -15,11 +15,13 @@
 		&:hover {
 			color: $color--black;
 			background-color: $color--white;
+			text-decoration: none;
 		}
 	}
 	& .menu .active > a, .menu .is-active > a {
 		color: $color--black;
 		background-color: $color--white;
+		text-decoration: none;
 	}
 }
 
@@ -29,6 +31,7 @@
 		&:hover {
 			color: $color--black;
 			background-color: $color--white;
+			text-decoration: none;
 		}
 	}
 }

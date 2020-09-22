@@ -30,6 +30,9 @@ body {
   background-color: #1a1a1a;
   color: #999; }
 
+main {
+  background-color: #000; }
+
 a {
   transition: 0.3s;
   color: #FFF; }
@@ -40,7 +43,8 @@ a {
   a:active {
     color: #FFF; }
   a:hover {
-    background-color: #000; }
+    background-color: #000;
+    text-decoration: underline; }
 
 /* Typography - From Skeleton.css
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -98,7 +102,7 @@ h6 {
 /* Base styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .top-bar, .top-bar ul {
-  background-color: #000; }
+  background-color: #1a1a1a; }
   .top-bar .menu a, .top-bar ul .menu a {
     font-size: 0.8rem;
     color: #FFF;
@@ -107,14 +111,17 @@ h6 {
     letter-spacing: 0.2rem; }
     .top-bar .menu a:hover, .top-bar ul .menu a:hover {
       color: #000;
-      background-color: #FFF; }
+      background-color: #FFF;
+      text-decoration: none; }
   .top-bar .menu .active > a, .top-bar .menu .is-active > a, .top-bar ul .menu .active > a, .top-bar ul .menu .is-active > a {
     color: #000;
-    background-color: #FFF; }
+    background-color: #FFF;
+    text-decoration: none; }
 
 .top-bar-left .menu a:hover, .top-bar-left ul .menu a:hover {
   color: #000;
-  background-color: #FFF; }
+  background-color: #FFF;
+  text-decoration: none; }
 
 main {
   padding-top: 1.5rem;
@@ -126,9 +133,9 @@ main {
   padding-bottom: 3rem; }
 
 footer, .footer {
-  padding-top: 3rem;
+  padding-top: 1.5rem;
   padding-bottom: 3rem;
-  background-color: #000; }
+  background-color: #1a1a1a; }
   footer p, .footer p {
     font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.5);
